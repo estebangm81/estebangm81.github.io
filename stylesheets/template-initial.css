@@ -124,12 +124,13 @@ header div.personal-data a {
 header div.personal-data h3 {
 }
 
-a.button.flag, img#spain-img {
+a.button.flag, img.static-flag {
   width: 50px;
   height: 34px;
   padding: 0;
   border-radius: 0;
   float: left;
+  margin-right: 8px;
 }
 
 a.button.flag.spain, a.button.flag.spain-bn:hover {
