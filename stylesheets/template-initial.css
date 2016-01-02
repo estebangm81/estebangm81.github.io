@@ -417,6 +417,10 @@ footer a:hover {
   text-align: center;
 }
 
+.not-visible {
+  display: none;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
