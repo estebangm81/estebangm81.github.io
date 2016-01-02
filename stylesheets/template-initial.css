@@ -189,6 +189,11 @@ header div.menu {
   margin-bottom: 40px;
 }
 
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
 a.button {
   display: block;
   float: left;
