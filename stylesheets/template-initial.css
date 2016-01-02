@@ -62,10 +62,9 @@ a:hover {
 
 header {
   position: fixed;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  margin: 0 10%;
-  min-height: 10%;
+  padding-top: 10px;
+  margin: auto 10%;
+  min-height: 150px;
   min-width: 960px;
   width: 80%;
 }
@@ -85,13 +84,13 @@ header div.logo {
 }
 
 header div.personal-data {
-  padding-left: 50px;
   float: left; 
   text-align: center;
   margin: auto;
   width: 60%;
-  min-width: 700px;
+  min-width: 550px;
   min-height: 120px;
+  padding-left: 50px;
 }
 
 header div.personal-data h1 {
@@ -116,11 +115,6 @@ p.flag-container {
   margin: auto;
   width: 20%;
   min-width: 200px;
-}
-
-#container {
-  min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
 header div.personal-data a {
@@ -167,8 +161,9 @@ header div.menu {
   width: 10%;
   min-width: 120px;
   min-height: 120px;
-  float: right;
+  float: left;
   padding-top: 30px;
+  padding-left: 50px;
 }
 
 .menu-img {
@@ -177,16 +172,11 @@ header div.menu {
 }
 
 .inner {
-  padding-top: 200px;
+  position: fixed;
   margin: 0 10%;
-}
-
-#container .inner img {
-  max-width: 100%;
-}
-
-#downloads {
-  margin-bottom: 40px;
+  top: 150px;
+  height: 430px;
+  overflow-y: scroll;
 }
 
 .not-active {
@@ -223,6 +213,7 @@ a.button {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
+
 a.button:hover {
   background: #fafafa; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
@@ -403,12 +394,14 @@ dl dt {
 }
 
 footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 0px;
   font-size: 13px;
   color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  padding-top: 10px;
+  margin: auto 10%;
+  min-width: 960px;
+  width: 80%;
 }
 
 footer a {
