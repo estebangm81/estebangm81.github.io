@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,29 +55,67 @@ body {
 a {
   color: #d5000d;
 }
+
 a:hover {
   color: #c5000c;
 }
 
 header {
+  position: fixed;
   padding-top: 35px;
   padding-bottom: 25px;
+  margin: 0 10%;
+  min-height: 10%;
+  min-width: 960px;
+  width: 80%;
 }
 
-header h1 {
+header div.logo {
+  margin: auto;
+  width: 10%;
+  min-width: 120px;
+  min-height: 120px;
+  float: left;
+}
+
+.logo-img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+header div.personal-data {
+  padding-left: 50px;
+  float: left; 
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  min-width: 700px;
+  min-height: 120px;
+}
+
+header div.personal-data h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
   color: #303030;
   letter-spacing: -1px;
+  text-transform: capitalize;
 }
 
-header h2 {
+header div.personal-data h2 {
   font-size: 24px;
   font-weight: normal;
   line-height: 1.3;
   color: #aaa;
   letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+p.flag-container {
+  margin: auto;
+  width: 20%;
+  min-width: 200px;
 }
 
 #container {
@@ -89,9 +123,62 @@ header h2 {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
+header div.personal-data a {
+  left: 25%;
+}
+
+header div.personal-data h3 {
+}
+
+a.button.flag {
+  width: 50px;
+  height: 34px;
+  padding: 0;
+  border-radius: 0;
+  float: left;
+}
+
+a.button.flag.spain, a.button.flag.spain-bn:hover {
+  background: url(../images/spain.png) 50% 0 no-repeat;
+}
+
+a.button.flag.spain-bn {
+  background: url(../images/spain-bn.png) 50% 0 no-repeat;
+}
+
+a.button.flag.uk, a.button.flag.uk-bn:hover {
+  background: url(../images/uk.png) 50% 0 no-repeat;
+}
+
+a.button.flag.uk-bn {
+  background: url(../images/uk-bn.png) 50% 0 no-repeat;
+}
+
+a.button.flag.italia, a.button.flag.italia-bn:hover {
+  background: url(../images/italia.png) 50% 0 no-repeat;
+}
+
+a.button.flag.italia-bn {
+  background: url(../images/italia-bn.png) 50% 0 no-repeat;
+}
+
+header div.menu {
+  margin: auto;
+  width: 10%;
+  min-width: 120px;
+  min-height: 120px;
+  float: right;
+  padding-top: 30px;
+}
+
+.menu-img {
+  display: block;
+  margin: auto;
+}
+
 .inner {
-  width: 620px;
-  margin: 0 auto;
+  padding-top: 200px;
+  margin: 0 10%;
 }
 
 #container .inner img {
@@ -105,31 +192,31 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 179px;
-  padding: 12px 8px 12px 8px;
-  margin-right: 14px;
-  font-size: 15px;
+  width: 50px;
+  padding: 10px 8px 10px 8px;
+  margin-right: 8px;
+  font-size: 14px;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 12px;
   color: #303030;
-  background: #fdfdfd; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
-  background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  background: #a6a6a6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #a6a6a6 0%, #f2f2f2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a6a6a6), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #a6a6a6 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #a6a6a6 0%,#f2f2f2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #a6a6a6 0%,#f2f2f2 100%); /* IE10+ */
+  background: linear-gradient(top,  #a6a6a6 0%,#f2f2f2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a6a6', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
   border-top: solid 1px #cbcbcb;
   border-right: solid 1px #b7b7b7;
   border-bottom: solid 1px #b3b3b3;
   border-left: solid 1px #b7b7b7;
-  border-radius: 30px;
+  border-radius: 10px;
   -webkit-box-shadow: 10px 10px 5px #888;
   -moz-box-shadow: 10px 10px 5px #888;
   box-shadow: 0px 1px 5px #e8e8e8;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 a.button:hover {
   background: #fafafa; /* Old browsers */
@@ -148,8 +235,8 @@ a.button:hover {
 
 a.button span {
   display: block;
-  height: 23px;
-  padding-left: 50px;
+  height: 16px;
+  padding-left: 40px;
 }
 
 #download-zip span {
@@ -159,7 +246,7 @@ a.button span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/octocat-icon.png) 4px 50% no-repeat;
 }
 #view-on-github {
   margin-right: 0;
@@ -324,6 +411,12 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+.copyright {
+  width: 100%;
+  clear: both;
+  text-align: center;
 }
 
 /* MISC */
