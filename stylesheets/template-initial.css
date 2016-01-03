@@ -26,9 +26,15 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+section {
+  margin: 2%;
+  clear: both;
+}
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -165,6 +171,51 @@ header div.menu {
   clear: both;
 }
 
+span.skill {
+  color: white;
+  font-size: 14px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.spanish-theme h3 {
+  color: #e30c24;
+}
+
+.spanish-theme span.date {
+  color: #f76e7d;
+}
+
+.spanish-theme span.skill {
+  background-color: transparent #f76e7d 50%;
+  padding: 1px;
+}
+
+.english-theme h3 {
+  color: #262291;
+}
+
+.english-theme span.date {
+  color: #8683e2;
+}
+
+.english-theme span.skill {
+  background-color: #8683e2;
+}
+
+.italian-theme h3 {
+  color: #056f33;
+}
+
+.italian-theme span.date {
+  color: #6df8a9;
+}
+
+.italian-theme span.skill {
+  background-color: transparent #6df8a9 50%;
+  padding: 1px;
+}
+
 a.button {
   display: block;
   float: left;
@@ -214,19 +265,6 @@ a.button span {
   display: block;
   height: 16px;
   padding-left: 40px;
-}
-
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
-}
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 4px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
 }
 
 code, pre {
@@ -319,7 +357,6 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
 }
 
 h4 {
@@ -360,8 +397,9 @@ blockquote {
 
 ul li {
   list-style-position: inside;
-  list-style: disc;
-  padding-left: 20px;
+  width: 100%;
+  list-style: none;
+  clear: both;
 }
 
 ol li {
@@ -400,6 +438,24 @@ footer a:hover {
 
 .not-visible {
   display: none;
+}
+
+.course-element-desc {
+  float: left;  
+  width: 80%;
+}
+
+.course-element-badge {
+  float: right;
+  width: 20%;
+  margin-right: 50px;
+  width: 60px;
+  height: 30px;
+}
+
+.course-element-badge a img {
+    width: 100%;
+    height: auto;
 }
 
 /* MISC */
