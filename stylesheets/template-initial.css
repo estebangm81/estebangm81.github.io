@@ -175,14 +175,18 @@ header div.menu {
 .inner {
   position: fixed;
   margin: 0 10%;
-  top: 150px;
-  height: 430px;
+  top: 170px;
+  height: 400px;
   overflow-y: scroll;
 }
 
 .not-active {
    pointer-events: none;
    cursor: default;
+}
+
+.alone {
+  clear: both;
 }
 
 a.button {
