@@ -133,30 +133,6 @@ a.button.flag, img.static-flag {
   margin-right: 8px;
 }
 
-a.button.flag.spain, a.button.flag.spain-bn:hover {
-  background: url(../images/spain.png) 50% 0 no-repeat;
-}
-
-a.button.flag.spain-bn {
-  background: url(../images/spain-bn.png) 50% 0 no-repeat;
-}
-
-a.button.flag.uk, a.button.flag.uk-bn:hover {
-  background: url(../images/uk.png) 50% 0 no-repeat;
-}
-
-a.button.flag.uk-bn {
-  background: url(../images/uk-bn.png) 50% 0 no-repeat;
-}
-
-a.button.flag.italia, a.button.flag.italia-bn:hover {
-  background: url(../images/italia.png) 50% 0 no-repeat;
-}
-
-a.button.flag.italia-bn {
-  background: url(../images/italia-bn.png) 50% 0 no-repeat;
-}
-
 header div.menu {
   margin: auto;
   width: 10%;
