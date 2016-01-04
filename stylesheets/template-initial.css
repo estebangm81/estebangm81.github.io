@@ -181,7 +181,7 @@ span.skill {
   border-radius: 3px;
 }
 
-.spanish-theme h3, a.spanish {
+.spanish-theme h3, a.spanish, h3.spanish {
   color: #e30c24;
 }
 
@@ -194,7 +194,7 @@ span.skill {
   padding: 1px;
 }
 
-.english-theme h3, a.english {
+.english-theme h3, a.english, h3.english {
   color: #262291;
 }
 
@@ -206,7 +206,7 @@ span.skill {
   background-color: #262291;
 }
 
-.italian-theme h3, a.italian {
+.italian-theme h3, a.italian, h3.italian {
   color: #056f33;
 }
 
