@@ -4,10 +4,10 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1;IE=edge">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/template-initial.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="shortcut icon" href="images/stb-micro-icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/template-initial.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print">
+    <link rel="shortcut icon" href="../images/stb-micro-icon.png" type="image/x-icon">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,19 +17,18 @@
   <body>
     <header>
       <div class="logo">
-        <img id="logo-stb" class="logo-img" src="images/stb-icon.png" alt="Logo Esteban G.M." longdesc="#desc-logo-stb"></img>
+        <img id="logo-stb" class="logo-img" src="../images/stb-icon.png" alt="Logo Esteban G.M." longdesc="#desc-logo-stb"></img>
       </div>
       <div class="personal-data">
         <h1>esteban gutiérrez marín</h1>
         <h2>full stack developer</h2>
         <p class="flag-container">
-          <a id="flag-spain" class="button flag" href="https://estebangm81.github.io/" title="Spanish"><img id="spain-img" src="images/spain-bn.png" class="static-flag" alt="Spanish" longdesc="Spanish flag that represents the Spanish language"></img></a>
-          <img id="uk-img" src="images/uk.png" class="static-flag" alt="English" longdesc="UK flag that represents the English language"></img>
-          <a id="flag-italia" class="button flag" href="https://estebangm81.github.io/index-it.html" title="Italiano"><img id="italy-img" src="images/italia-bn.png" class="static-flag" alt="Italian" longdesc="Italian flag that represents the Italian language"></img></a> 
+          <a id="flag-spain" class="button flag" href="https://estebangm81.github.io/" title="Spanish"><img id="spain-img" src="../images/spain-bn.png" class="static-flag" alt="Spanish" longdesc="Spanish flag that represents the Spanish language"></img></a>
+          <img id="uk-img" src="../images/uk.png" class="static-flag" alt="English" longdesc="UK flag that represents the English language"></img>
+          <a id="flag-italia" class="button flag" href="https://estebangm81.github.io/index-it.html" title="Italiano"><img id="italy-img" src="../images/italia-bn.png" class="static-flag" alt="Italian" longdesc="Italian flag that represents the Italian language"></img></a> 
         </p>
       </div>
       <div class="menu">
-        <a href="" id="menu-cv" class="button" title="Menu"><img id="menu-icon" class="menu-img" src="images/menu.png" alt="Menu" longdesc="Image for the menu button to show available actions on the page to the user"></img></a>
       </div>
       <hr class="alone">
     </header>
@@ -37,35 +36,234 @@
     <div id="container" class="inner english-theme">
       <section id="glosary">
         <h3>Glosary</h3>
-        <p id="desc-logo-stb">This is a logo that represent the activity of Esteban G.M.</p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
-        <p id=""></p>
+        <ul>
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="logo-stb" src="../images/stb-icon.png" alt="Logo Esteban G.M." longdesc="#desc-logo-stb"></img>
+            </div>
+            <p id="desc-logo-stb" class="desc-image">This is a logo that represent the activity of Esteban G.M.</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="menu-icon" src="../images/menu.png" alt="Menu" longdesc="#desc-menu-icon"></img>
+            </div>
+            <p id="desc-menu-icon" class="desc-image">Image for the menu button to show available actions on the page to the user</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="spain-img" src="../images/spain.png" alt="Spanish" longdesc="#desc-spain-img"></img>
+            </div>
+            <p id="desc-spain-img" class="desc-image">Spanish flag that represents the Spanish language (currently selected)</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="uk-img" src="../images/uk.png" alt="English" longdesc="#desc-uk-img"></img>
+            </div>
+            <p id="desc-uk-img" class="desc-image">UK flag that represents the English language (currently selected)</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="italy-img" src="../images/italia.png" alt="Italian" longdesc="#desc-italy-img"></img>
+            </div>
+            <p id="desc-italy-img" class="desc-image">Italian flag that represents the Italian language (currently selected)</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="spain-img-bn" src="../images/spain-bn.png" alt="Spanish" longdesc="#desc-spain-img-bn"></img>
+            </div>
+            <p id="desc-spain-img-bn" class="desc-image">Spanish flag that represents the Spanish language (not selected)</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="uk-img-bn" src="../images/uk-bn.png" alt="English" longdesc="#desc-uk-img-bn"></img>
+            </div>
+            <p id="desc-uk-img-bn" class="desc-image">UK flag that represents the English language (not selected</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="italy-img-bn" src="../images/italia-bn.png" alt="Italian" longdesc="#desc-italy-img-bn"></img>
+            </div>
+            <p id="desc-italy-img-bn" class="desc-image">Italian flag that represents the Italian language (not selected</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="level-expert" src="../images/level-expert.png" alt="Expert" longdesc="#desc-level-expert"></img>
+            </div>
+            <p id="desc-level-expert" class="desc-image">Expert level</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="level-advanced" src="../images/level-advanced.png" alt="Advanced" longdesc="#desc-level-advanced"></img>
+            </div>
+            <p id="desc-level-advanced" class="desc-image">Advanced level</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="level-intermediate" src="../images/level-intermediate.png" alt="Intermediate" longdesc="#desc-level-intermediate"></img>
+            </div>
+            <p id="desc-level-intermediate" class="desc-image">Intermediate level</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="level-basic" src="../images/level-basic.png" alt="Basic" longdesc="#desc-level-basic"></img>
+            </div>
+            <p id="desc-level-basic" class="desc-image">Basic level</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="on-request" src="../images/badges/on-request.png" alt="Available on request" longdesc="#desc-on-request"></img>
+            </div>
+            <p id="desc-on-request" class="desc-image">The current certificate is available on request</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="uma" src="../images/badges/uma.png" alt="Universidad de Málaga" longdesc="#desc-uma"></img>
+            </div>
+            <p id="desc-uma" class="desc-image">Logo of the University of Málaga</p>
+          </li>
+          
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="atrium" src="../images/badges/atrium.png" alt="Atrium" longdesc="#desc-atrium"></img>
+            </div>
+            <p id="desc-atrium" class="desc-image">Logo of ATRIUM</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="ingenia" src="../images/badges/ingenia.png" alt="Ingenia" longdesc="#desc-ingenia"></img>
+            </div>
+            <p id="desc-ingenia" class="desc-image">Logo of Ingenia</p>
+          </li>
+          
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="forman" src="../images/badges/forman.png" alt="FORMAN" longdesc="#desc-forman"></img>
+            </div>
+            <p id="desc-forman" class="desc-image">Logo of FORMAN</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="ugr" src="../images/badges/ugr.png" alt="Universidad de Granada" longdesc="#desc-ugr"></img>
+            </div>
+            <p id="desc-ugr" class="desc-image">Logo of the University of Granada</p>
+          </li>
+          
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="cea" src="../images/badges/cea.png" alt="CEA" longdesc="#desc-cea"></img>
+            </div>
+            <p id="desc-cea" class="desc-image">Logo of CEA</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="jpassion" src="../images/badges/jpassion.png" alt="JPassion" longdesc="#desc-jpassion"></img>
+            </div>
+            <p id="desc-jpassion" class="desc-image">Logo of JPassion</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="aresmas" src="../images/badges/aresmas.png" alt="Aresmas" longdesc="#desc-aresmas"></img>
+            </div>
+            <p id="desc-aresmas" class="desc-image">Logo of Aresmas</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="upm" src="../images/badges/upm.png" alt="UPM" longdesc="#desc-upm"></img>
+            </div>
+            <p id="desc-upm" class="desc-image">Logo of the Universidad Politécnica de Madrid</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="oracle-university" src="../images/badges/oracle-university.png" alt="Oracle University" longdesc="#desc-oracle-university"></img>
+            </div>
+            <p id="desc-oracle-university" class="desc-image">Logo of Oracle University</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="izertis" src="../images/badges/izertis.png" alt="Izertis" longdesc="#desc-izertis"></img>
+            </div>
+            <p id="desc-izertis" class="desc-image">Logo of Izertis</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="euroformac" src="../images/badges/euroformac.png" alt="Euroformac" longdesc="#desc-euroformac"></img>
+            </div>
+            <p id="desc-euroformac" class="desc-image">Logo of Grupo Euroformac</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="edx" src="../images/badges/edx.png" alt="edX" longdesc="#desc-edx"></img>
+            </div>
+            <p id="desc-edx" class="desc-image">Logo of edX</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="codeschool" src="../images/badges/codeschool.png" alt="Code School" longdesc="#desc-codeschool"></img>
+            </div>
+            <p id="desc-codeschool" class="desc-image">Logo of Code School</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="miriadax" src="../images/badges/miriadax.png" alt="MiriadaX" longdesc="#desc-miriadax"></img>
+            </div>
+            <p id="desc-miriadax" class="desc-image">Logo of MiriadaX</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="waikato" src="../images/badges/waikato.png" alt="University of Waikato" longdesc="#desc-waikato"></img>
+            </div>
+            <p id="desc-waikato" class="desc-image">Logo of the University of Waikato</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="mongodb" src="../images/badges/mongo_db.png" alt="Mongo DB" longdesc="#desc-mongodb"></img>
+            </div>
+            <p id="desc-mongodb" class="desc-image">Logo of Mongo DB</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="scrum-manager" src="../images/badges/scrum-manager.png" alt="Scrum Manager" longdesc="#desc-scrum-manager"></img>
+            </div>
+            <p id="desc-scrum-manager" class="desc-image">Logo of Scrum Manager</p>
+          </li>
+
+          <li class="desc-line">
+            <div class="help-image">
+              <img id="acamica" src="../images/badges/acamica.png" alt="Acamica" longdesc="#desc-acamica"></img>
+            </div>
+            <p id="desc-acamica" class="desc-image">Logo of Acamica</p>
+          </li>
+        </ul>
       </section>
 
-      <hr>
-
-
+      <hr class="alone">
     </div>
 
     <footer>
