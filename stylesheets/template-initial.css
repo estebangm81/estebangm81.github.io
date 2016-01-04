@@ -427,8 +427,15 @@ footer a:hover {
   text-align: left;
 }
 
-.css-badge {
+.validation-badge {
   float: right;
+  padding-left: 10px;
+}
+
+.validation-badge-image {
+  border:0;
+  width:88px;
+  height:31px;
 }
 
 .not-visible {
