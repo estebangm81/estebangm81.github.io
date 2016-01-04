@@ -216,6 +216,10 @@ span.skill {
   padding: 1px;
 }
 
+.high-importance {
+
+}
+
 a.button {
   display: block;
   float: left;
@@ -455,6 +459,11 @@ footer a:hover {
 
 .course-element-badge a img {
     width: 100%;
+    height: auto;
+}
+
+.course-element-badge a img.big {
+    width: 200%;
     height: auto;
 }
 
