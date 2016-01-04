@@ -424,7 +424,11 @@ footer a:hover {
 .copyright {
   width: 100%;
   clear: both;
-  text-align: center;
+  text-align: left;
+}
+
+.css-badge {
+  float: right;
 }
 
 .not-visible {
