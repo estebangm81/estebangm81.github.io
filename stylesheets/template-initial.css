@@ -158,7 +158,7 @@ header div.menu {
   position: fixed;
   margin: 0 10%;
   top: 170px;
-  height: 400px;
+  height: 60%;
   overflow-y: scroll;
 }
 
@@ -446,24 +446,56 @@ footer a:hover {
 
 .course-element-desc {
   float: left;  
-  width: 80%;
+  width: 75%;
+}
+
+.course-element-level {
+  float: right;
+  width: 30px;
+  height: 15px;
+}
+
+.course-element-level img {
+    width: 100%;
+    height: auto;
 }
 
 .course-element-badge {
   float: right;
   width: 20%;
-  margin-right: 50px;
+  margin-right: 70px;
   width: 60px;
   height: 30px;
+  vertical-align: middle;
 }
 
 .course-element-badge a img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .course-element-badge a img.big {
-    width: 200%;
+  width: 200%;
+  height: auto;
+}
+
+.languages-list {
+  margin-bottom: 60px;
+}
+
+.language-name {
+  width: 10%;
+  float: left;
+}
+
+.language-category {
+  width: 15%;
+  float: left;
+}
+
+.language-category img {
+    width: 10%;
+    padding-left: 25px;
     height: auto;
 }
 
