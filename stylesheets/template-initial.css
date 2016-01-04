@@ -181,7 +181,7 @@ span.skill {
   border-radius: 3px;
 }
 
-.spanish-theme h3 {
+.spanish-theme h3, a.spanish {
   color: #e30c24;
 }
 
@@ -194,7 +194,7 @@ span.skill {
   padding: 1px;
 }
 
-.english-theme h3 {
+.english-theme h3, a.english {
   color: #262291;
 }
 
@@ -203,10 +203,10 @@ span.skill {
 }
 
 .english-theme span.skill {
-  background-color: #8683e2;
+  background-color: #262291;
 }
 
-.italian-theme h3 {
+.italian-theme h3, a.italian {
   color: #056f33;
 }
 
@@ -455,6 +455,7 @@ footer a:hover {
 
 .course-element-level {
   float: right;
+  padding-top: 5px;
   width: 30px;
   height: 15px;
 }
@@ -513,6 +514,7 @@ footer a:hover {
 }
 
 .desc-line {
+
 }
 
 .help-image {
