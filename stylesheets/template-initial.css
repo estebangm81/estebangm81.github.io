@@ -433,9 +433,15 @@ footer a:hover {
 }
 
 .validation-badge-image {
-  border:0;
-  width:88px;
-  height:31px;
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
+
+.validation-badge-image-narrow {
+  border: 0;
+  width: 60px;
+  height: 31px;
 }
 
 .not-visible {
