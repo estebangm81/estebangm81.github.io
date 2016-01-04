@@ -162,6 +162,10 @@ header div.menu {
   overflow-y: scroll;
 }
 
+.experience-block {
+  margin-bottom: 20px;
+}
+
 .not-active {
    cursor: default;
 }
