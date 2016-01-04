@@ -168,6 +168,7 @@ header div.menu {
 
 .not-active {
    cursor: default;
+   pointer-events: none;
 }
 
 .alone {
