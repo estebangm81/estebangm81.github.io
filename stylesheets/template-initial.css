@@ -145,8 +145,8 @@ header div.menu {
   min-width: 120px;
   min-height: 120px;
   float: left;
-  padding-top: 30px;
-  padding-left: 50px;
+  padding-top: 40px;
+  padding-left: 60px;
 }
 
 .menu-img {
@@ -227,7 +227,7 @@ span.skill {
 a.button {
   display: block;
   float: left;
-  width: 50px;
+  width: 40px;
   padding: 10px 8px 10px 8px;
   margin-right: 8px;
   font-size: 14px;
@@ -450,19 +450,19 @@ footer a:hover {
 }
 
 .course-element-desc {
-  float: left;  
-  width: 75%;
+  float: left;
 }
 
 .course-element-level {
-  float: right;
+  float: left;
   padding-top: 5px;
+  margin-right: 5px;
   width: 30px;
-  height: 15px;
+  height: 20px;
 }
 
 .course-element-level img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
