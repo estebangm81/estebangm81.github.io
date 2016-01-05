@@ -154,6 +154,19 @@ header div.menu {
   margin: auto;
 }
 
+.company {
+  float: left;
+  padding-top: 5px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+}
+
+.company img {
+  width: 100%;
+  height: auto;
+}
+
 .inner {
   position: fixed;
   margin: 0 10%;
@@ -164,6 +177,8 @@ header div.menu {
 
 .experience-block {
   margin-bottom: 20px;
+  float: left;
+  width: 75%;
 }
 
 .not-active {
