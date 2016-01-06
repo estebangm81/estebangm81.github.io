@@ -443,8 +443,8 @@ footer a:hover {
 }
 
 .validation-badge {
-  float: right;
-  padding-left: 10px;
+  float: left;
+  padding: 0 10px;
 }
 
 .validation-badge-image {
@@ -575,6 +575,8 @@ footer a:hover {
   .inner {
     width: 94%;
     margin: 0 auto;
+    height: 80%;
+    overflow-y: scroll;
   }
 }
 
