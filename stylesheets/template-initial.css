@@ -137,6 +137,10 @@ a.button.flag, img.static-flag {
   margin-right: 8px;
 }
 
+.links {
+  margin-top: 20px;
+}
+
 .link-profile {
   float: left;
   padding: 0 10px;
