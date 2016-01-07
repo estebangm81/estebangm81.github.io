@@ -137,12 +137,15 @@ a.button.flag, img.static-flag {
   margin-right: 8px;
 }
 
-header div.menu {
+.link-profile {
+  float: left;
+  padding: 0 10px;
 }
 
-.menu-img {
-  display: block;
-  margin: auto;
+.link-profile .link-icon {
+  border: 0;
+  width: 40px;
+  height: 40px;
 }
 
 .company {
