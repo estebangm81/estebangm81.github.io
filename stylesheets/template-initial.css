@@ -199,11 +199,11 @@ span.skill {
 }
 
 .spanish-theme span.date {
-  color: #f76e7d;
+  color: #f20d26;
 }
 
 .spanish-theme span.skill {
-  background-color: #f76e7d;
+  background-color: #f20d26;
   padding: 1px;
 }
 
@@ -212,7 +212,7 @@ span.skill {
 }
 
 .english-theme span.date {
-  color: #8683e2;
+  color: #262291;
 }
 
 .english-theme span.skill {
@@ -224,11 +224,11 @@ span.skill {
 }
 
 .italian-theme span.date {
-  color: #0bdb65;
+  color: #067938;
 }
 
 .italian-theme span.skill {
-  background-color: #0bdb65;
+  background-color: #067938;
   padding: 1px;
 }
 
