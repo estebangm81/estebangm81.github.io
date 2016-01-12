@@ -67,7 +67,6 @@ a:hover {
 }
 
 header {
-  position: fixed;
   padding-top: 10px;
   margin: auto 10%;
   min-height: 120px;
@@ -166,11 +165,8 @@ a.button.flag, img.static-flag {
 }
 
 .inner {
-  position: fixed;
   margin: 0 10%;
   top: 130px;
-  height: 70%;
-  overflow-y: scroll;
 }
 
 .experience-block {
@@ -413,7 +409,6 @@ dl dt {
 }
 
 footer {
-  position: absolute;
   bottom: 0px;
   font-size: 13px;
   color: #aaa;
