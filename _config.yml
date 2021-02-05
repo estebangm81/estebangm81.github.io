@@ -2,7 +2,7 @@ title: Esteban G.M.´s CV
 description: Web page with the CV
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-modernist
 
 gems:
   - jekyll-mentions
