@@ -1,7 +1,7 @@
-title: Esteban G.M.´s CV
-description: Web page with the CV
+title: Another Software Craftsman's Blog
+description: Spikes and PoCs I would like to share to myself
 google_analytics: UA-96136221-1
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-modernist
 
 gems:
